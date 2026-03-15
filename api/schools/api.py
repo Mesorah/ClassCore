@@ -4,6 +4,6 @@ from .serializers import SchoolSerializer
 
 
 
-class CreateUsers(ListCreateAPIView):
+class CreateSchools(ListCreateAPIView):
     queryset = School.objects.all()
     serializer_class = SchoolSerializer

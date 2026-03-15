@@ -1,6 +1,6 @@
 from django.urls import path
-from .api import CreateUsers
+from .api import CreateSchools
 
 urlpatterns = [
-    path('', CreateUsers.as_view(), name='user-list')
+    path('', CreateSchools.as_view(), name='user-list')
 ]
